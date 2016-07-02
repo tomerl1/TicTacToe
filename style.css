@@ -14,45 +14,39 @@
     transition: background 0.3s linear;
     cursor: pointer;
     padding: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 160px;
 }
 
 .game .game-tile:hover {
     background: #444;
 }
 
-.game #box-1 {
+.game #box-0 {
     border-left: none;
+    border-top: none;
+}
+
+.game #box-1 {
     border-top: none;
 }
 
 .game #box-2 {
-    border-top: none;
-}
-
-.game #box-3 {
     border-right: none;
     border-top: none;
 }
 
-.game #box-4 {
-}
-
-.game #box-5 {
-}
-
 .game #box-6 {
-}
-
-.game #box-7 {
     border-left: none;
     border-bottom: none;
 }
 
-.game #box-8 {
+.game #box-7 {
     border-bottom: none;
 }
 
-.game #box-9 {
+.game #box-8 {
     border-right: none;
     border-bottom: none;
 }
