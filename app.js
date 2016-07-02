@@ -1,10 +1,10 @@
 ; (function ($) {
     'use strict';
 
+    var disabled = false;
     var playerSide = null;
     var aiSide = null;
 
-    var disabled = true;
     //console.log(arguments);
 
     function init() {
@@ -33,8 +33,7 @@
     function radnomizeFirstPlayer() {
         var randNumber = getRandomArbitrary();
         var currentPlayer = randNumber === 0 ? playerSide : aiSide;
-        console.log(randNumber);
-        console.log('Starting player is "%s"', currentPlayer);
+        console.log('Randomized current player: "%s"', currentPlayer);
     }
 
     function getRandomArbitrary() {
