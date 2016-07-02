@@ -1,0 +1,143 @@
+.game .game-box {
+    width:480px;
+    height:480px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.game .game-tile { 
+    background: #333;  
+    height: 160px;
+    border: 1px solid seagreen;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+    cursor: pointer;
+    padding: 0;
+}
+
+.game .game-tile:hover {
+    background: #444;
+}
+
+.game #box-1 {
+    border-left: none;
+    border-top: none;
+}
+
+.game #box-2 {
+    border-top: none;
+}
+
+.game #box-3 {
+    border-right: none;
+    border-top: none;
+}
+
+.game #box-4 {
+}
+
+.game #box-5 {
+}
+
+.game #box-6 {
+}
+
+.game #box-7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+.game #box-8 {
+    border-bottom: none;
+}
+
+.game #box-9 {
+    border-right: none;
+    border-bottom: none;
+}
+
+.slash::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 681px;
+    border: 1px dashed red;
+    position: absolute;
+    transform: rotate(135deg);
+    top: -102px;
+    left: 238px;
+}
+
+.back-slash::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 681px;
+    border: 1px dashed red;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -103px;
+    left: 242px;
+}
+
+.top-horizontal::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 1px dashed red;
+    position: absolute;
+    top: 80px;
+}
+
+.middle-horizontal::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 1px dashed red;
+    position: absolute;
+    top: 240px;
+}
+
+.bottom-horizontal::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 1px dashed red;
+    position: absolute;
+    top: 400px;
+}
+
+.left-vertical::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    border: 1px dashed red;
+    position: absolute;
+    left: 80px;
+}
+
+.middle-vertical::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    border: 1px dashed red;
+    position: absolute;
+    left: 240px;
+}
+
+.right-vertical::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    border: 1px dashed red;
+    position: absolute;
+    left: 400px;
+}
+
